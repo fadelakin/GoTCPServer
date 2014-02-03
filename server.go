@@ -7,7 +7,7 @@ import (
 func main() {
 	fmt.Println("Starting the server . . . ")
 	// create listener
-	listener, err := net.Listen("tcp", "localhost:5000")
+	listener, err := net.Listen("tcp", "localhost:7777")
 	if err != nil {
 		fmt.Println("Error listening", err.Error())
 		return // terminate program
