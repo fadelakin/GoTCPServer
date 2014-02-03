@@ -31,6 +31,6 @@ func doServerStuff(conn net.Conn) {
 			fmt.Println("Error reading", err.Error())
 			return // terminate program
 		}
-		fmt.Println("Recieved data: %v", strong(buf))
+		fmt.Println("Recieved data: %v", string(buf))
 	}
 }
